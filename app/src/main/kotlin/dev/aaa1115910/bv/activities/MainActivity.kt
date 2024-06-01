@@ -38,7 +38,8 @@ class MainActivity : ComponentActivity() {
             }
 
             BVTheme {
-                if (isMainlandChina) RegionBlockScreen() else HomeScreen()
+               // if (isMainlandChina) RegionBlockScreen() else HomeScreen()
+                HomeScreen()
             }
         }
     }
